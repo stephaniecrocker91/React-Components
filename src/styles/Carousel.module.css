@@ -15,16 +15,7 @@ img {
     left: 0!important;
     width: 100%;
     height: 60vh; /* Adjust the height as needed */
-    background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%);
-    z-index: 2; /* Ensure the overlay is above the carousel */
-  }
-
-.none {
-    position: absolute!important;
-    top: 0!important;
-    left: 0!important;
-    width: 100%;
-    height: 60vh; /* Adjust the height as needed */
-    background: linear-gradient(to right, rgb(219, 97, 97) 50%, transparent 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 10%, transparent 100%);
     z-index: 2; /* Ensure the overlay is above the carousel */
 }
+

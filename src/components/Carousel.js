@@ -31,7 +31,7 @@ function CarouselComponent() {
                         <Carousel.Item interval={3000} key={hero.id}>
                             {/* Add the overlay div under here */}
                             <div className={
-                                hero.css
+                                styles.overlay
                                 }>    
                             </div>
                             <img className="d-block w-100"
